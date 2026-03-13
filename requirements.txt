@@ -1,6 +1,6 @@
 streamlit
-tensorflow-cpu
-scikit-learn
-pandas
 numpy
+pandas
 joblib
+scikit-learn
+keras
