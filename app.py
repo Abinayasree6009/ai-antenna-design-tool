@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import pandas as pd
 
 # Load model and scaler
