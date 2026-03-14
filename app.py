@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
 import pandas as pd
+from tensorflow.keras.models import load_model
 
 # Load model and scaler
 model = load_model("s11_dnn_model.keras", compile=False)
